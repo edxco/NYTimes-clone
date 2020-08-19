@@ -1,25 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+/* Global Atributes */ 
 
 * {
 	box-sizing: border-box;
 }
 body {
 	margin: 0;
-	font-family: 'PT Serif', serif;
+	font-family: 'nyt-imperial', georgia,'times new roman',times,serif;
 	font-weight: 400;
 	font-size: 20px;
 }
 
-h1 {
-	line-height: 1.8em;
+a{
+	text-decoration: none;
 }
 
-.nav__bar {
+h1 {
+	line-height: 1.8em;
+	font-size: 38px;
+	font-style: italic;
+}
+
+/* Navigation section including logo */
+
+nav {
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
-}
-.nav__bar {
 	padding-left: 144px;
 	border-bottom: 1px solid lightgrey;
 }
@@ -53,14 +59,13 @@ h1 {
 	color: #333333;
 }
 .logo {
-	width: 300px;
 }
 .logo img {
 	height: 30px;
 	width: 200px;
 }
 .nav__leftside {
-	padding-right: 144px;
+	
 }
 .nav__leftside button {
 	background-color: #567b95;
