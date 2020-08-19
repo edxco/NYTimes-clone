@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
 * {
 	box-sizing: border-box;
 }
 body {
 	margin: 0;
+	font-family: 'PT Serif', serif;
+	font-weight: 400;
+	font-size: 20px;
 }
+
+h1{ line-height: 1.8em; }
+
 .nav__bar {
 	display: flex;
 	justify-content: space-between;
@@ -66,6 +74,8 @@ body {
 	cursor: pointer;
 	border: 3px solid black;
 }
+
+/* Main content */
 #main {
 	display: flex;
 	margin-left: 353px;
@@ -79,9 +89,24 @@ body {
 	order: -1;
 }
 
-.title {
+.center {
 	text-align: center;
 }
+
+p[rel="little-text"]{ font-size: 14px; color: #444;}
+/* Content aligment text */
+#container-text{
+	display: grid;
+	justify-items: center;
+	width: 100%;
+}
+
+.content-text{
+	justify-self: center;
+	width: 45%;
+	line-height: 1.5em;
+}
+
 .main_img1 {
 	position: relative;
 }
