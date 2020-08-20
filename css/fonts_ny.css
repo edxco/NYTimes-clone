@@ -1,4 +1,14 @@
 @font-face {
+  font-family: 'nyt-cheltenham';
+  src: url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-700.f99a0459024509f157a3352e5de4f873.woff2') format('woff2'),
+       url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-700.d53eaf3b784c4b50d1c331e1278cda67.woff') format('woff'),
+       url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-700.c690b74328fddd7feff3bc4c1c1a0cd8.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
 	font-family: 'nyt-imperial';
 	src: url('https://g1.nyt.com/fonts/family/imperial/imperial-italic-400.8e3dae6216687021f9ac60be5482cc72.woff2') format('woff2'),
 		 url('https://g1.nyt.com/fonts/family/imperial/imperial-italic-400.bdb1930796cedc086de3c98924ac8ff4.woff') format('woff'),
@@ -60,9 +70,9 @@
   
   @font-face {
 	font-family: 'nyt-imperial';
-	src: url('/fonts/family/imperial/imperial-normal-600.66d76360a629574bcb420777bfe81396.woff2') format('woff2'),
-		 url('/fonts/family/imperial/imperial-normal-600.8ca9b447bfa092b1e83918e3693643a3.woff') format('woff'),
-		 url('/fonts/family/imperial/imperial-normal-600.5a1f77a42d1d1c56d79e3beca0afeee4.ttf') format('truetype');
+	src: url('https://g1.nyt.com/fonts/family/imperial/imperial-normal-600.66d76360a629574bcb420777bfe81396.woff2') format('woff2'),
+		 url('https://g1.nyt.com/fonts/family/imperial/imperial-normal-600.8ca9b447bfa092b1e83918e3693643a3.woff') format('woff'),
+		 url('https://g1.nyt.com/fonts/family/imperial/imperial-normal-600.5a1f77a42d1d1c56d79e3beca0afeee4.ttf') format('truetype');
 	font-style: normal;
 	font-weight: 600;
 	font-display: swap;
@@ -70,10 +80,200 @@
   
   @font-face {
 	font-family: 'nyt-imperial';
-	src: url('/fonts/family/imperial/imperial-normal-700.796334d8a16a55d6fa9e4cbf896ac9de.woff2') format('woff2'),
-		 url('/fonts/family/imperial/imperial-normal-700.a9670f80042b4daa8a7f0a8e58cd856a.woff') format('woff'),
-		 url('/fonts/family/imperial/imperial-normal-700.b41c6e33cfd281d679e8586dfd1b7a9e.ttf') format('truetype');
+	src: url('https://g1.nyt.com/fonts/family/imperial/imperial-normal-700.796334d8a16a55d6fa9e4cbf896ac9de.woff2') format('woff2'),
+		 url('https://g1.nyt.com/fonts/family/imperial/imperial-normal-700.a9670f80042b4daa8a7f0a8e58cd856a.woff') format('woff'),
+		 url('https://g1.nyt.com/fonts/family/imperial/imperial-normal-700.b41c6e33cfd281d679e8586dfd1b7a9e.ttf') format('truetype');
 	font-style: normal;
 	font-weight: 700;
 	font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'nyt-franklin';
+    src: url('https://g1.nyt.com/fonts/family/franklin/franklin-italic-300.c2b633d8ab72fe0bedee28c06bf0d670.woff2') format('woff2'),
+         url('https://g1.nyt.com/fonts/family/franklin/franklin-italic-300.d5331cde5e4a49694ed0157c23ec7fec.woff') format('woff'),
+         url('https://g1.nyt.com/fonts/family/franklin/franklin-italic-300.65cdf42a9726f89ca9c14ffad87308d8.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'nyt-franklin';
+    src: url('https://g1.nyt.com/fonts/family/franklin/franklin-italic-500.2931ceac226baa7c240c4e483040b0c2.woff2') format('woff2'),
+         url('https://g1.nyt.com/fonts/family/franklin/franklin-italic-500.27edc27f40df36c0a6945f6d1d73e167.woff') format('woff'),
+         url('https://g1.nyt.com/fonts/family/franklin/franklin-italic-500.e22c69bd6a37ef4446f43b6865b15850.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'nyt-franklin';
+    src: url('https://g1.nyt.com/fonts/family/franklin/franklin-italic-600.e45166ea8a537cee27368f60b3c15bb3.woff2') format('woff2'),
+         url('https://g1.nyt.com/fonts/family/franklin/franklin-italic-600.7c6a93c684714e03fc6a085eb06110a2.woff') format('woff'),
+         url('https://g1.nyt.com/fonts/family/franklin/franklin-italic-600.806fcb2d2b3a99b15e96596046ea8f92.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'nyt-franklin';
+    src: url('https://g1.nyt.com/fonts/family/franklin/franklin-italic-700.aff6e05b305e7cf33e1f757735045876.woff2') format('woff2'),
+         url('https://g1.nyt.com/fonts/family/franklin/franklin-italic-700.62ad1d675b21069c67430cd671b66f38.woff') format('woff'),
+         url('https://g1.nyt.com/fonts/family/franklin/franklin-italic-700.a5d605ccf65e790384c19126565ee1f6.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'nyt-franklin';
+    src: url('https://g1.nyt.com/fonts/family/franklin/franklin-italic-800.be53478fd7c32b04647c16795817c00a.woff2') format('woff2'),
+         url('https://g1.nyt.com/fonts/family/franklin/franklin-italic-800.7528246ef94af7fbf426e92d1a234593.woff') format('woff'),
+         url('https://g1.nyt.com/fonts/family/franklin/franklin-italic-800.392e85363c515d58d504069f5bff16cc.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 800;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'nyt-franklin';
+    src: url('https://g1.nyt.com/fonts/family/franklin/franklin-italic-900.93f61fe226df92cc8d8c7aa742f291e7.woff2') format('woff2'),
+         url('https://g1.nyt.com/fonts/family/franklin/franklin-italic-900.b9511ff3ec4a8ab7178d19c1b655c84a.woff') format('woff'),
+         url('https://g1.nyt.com/fonts/family/franklin/franklin-italic-900.eb0ff72a1864b509d830becfb3ff9c1f.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 900;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'nyt-franklin';
+    src: url('https://g1.nyt.com/fonts/family/franklin/franklin-normal-300.bc7be4c5d8cacb780f896c5cbe0c0d7f.woff2') format('woff2'),
+         url('https://g1.nyt.com/fonts/family/franklin/franklin-normal-300.173315ff36fdf628bbfbabac0c03a76d.woff') format('woff'),
+         url('https://g1.nyt.com/fonts/family/franklin/franklin-normal-300.d1bf0bccfda41b1a77ea392b7a26d4cf.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'nyt-franklin';
+    src: url('https://g1.nyt.com/fonts/family/franklin/franklin-normal-500.d6c06a3d84a57100edad5bf9b84ff739.woff2') format('woff2'),
+         url('https://g1.nyt.com/fonts/family/franklin/franklin-normal-500.414758de098dc644b688afa031d35f9b.woff') format('woff'),
+         url('https://g1.nyt.com/fonts/family/franklin/franklin-normal-500.1b6dc8a3d86d2a28b825482c9497a633.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'nyt-franklin';
+    src: url('https://g1.nyt.com/fonts/family/franklin/franklin-normal-600.abe1b34d5a429f8e034860c86c483446.woff2') format('woff2'),
+         url('https://g1.nyt.com/fonts/family/franklin/franklin-normal-600.8a86998af9a6f5487758d78fef54920d.woff') format('woff'),
+         url('https://g1.nyt.com/fonts/family/franklin/franklin-normal-600.d274c9e68918ea101e79552dc9da086d.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'nyt-franklin';
+    src: url('https://g1.nyt.com/fonts/family/franklin/franklin-normal-700.b44c88f09ca7ce914b836d4ae72891b8.woff2') format('woff2'),
+         url('https://g1.nyt.com/fonts/family/franklin/franklin-normal-700.a192db310935d8a882832e2cc83f2119.woff') format('woff'),
+         url('https://g1.nyt.com/fonts/family/franklin/franklin-normal-700.aaec3c198ea6e3efd97b2b19823bf861.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'nyt-franklin';
+    src: url('https://g1.nyt.com/fonts/family/franklin/franklin-normal-800.fdc7cad17deeec2db1fe2f9f8c0520ed.woff2') format('woff2'),
+         url('https://g1.nyt.com/fonts/family/franklin/franklin-normal-800.932fec957ef6d36632bd5494d05ad13b.woff') format('woff'),
+         url('https://g1.nyt.com/fonts/family/franklin/franklin-normal-800.1dc34c8d18e3128867d8e77368f0da56.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'nyt-franklin';
+    src: url('https://g1.nyt.com/fonts/family/franklin/franklin-normal-900.c7663abf5510617900d31a082a9c2e8d.woff2') format('woff2'),
+         url('https://g1.nyt.com/fonts/family/franklin/franklin-normal-900.a872cf7b59306d8146237e98fb6be2fa.woff') format('woff'),
+         url('https://g1.nyt.com/fonts/family/franklin/franklin-normal-900.2c951d5351ef934b47077105a883d2d1.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'nyt-franklin-cword';
+    src: url('https://g1.nyt.com/fonts/family/franklin-cword/franklin-cword-normal-500.0064a6e6a668783e309e6d3bea1d46cc.woff2') format('woff2'),
+         url('https://g1.nyt.com/fonts/family/franklin-cword/franklin-cword-normal-500.9d7b6ba34231ebd53f1cd4e003f6515d.woff') format('woff'),
+         url('https://g1.nyt.com/fonts/family/franklin-cword/franklin-cword-normal-500.ab3b309eadc6024a155fe0771a2a000b.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'nyt-franklin-small';
+    src: url('https://g1.nyt.com/fonts/family/franklin-small/franklin-small-normal-500.0c3067e7ff2be53d0645203b6c2d3dd0.woff2') format('woff2'),
+         url('https://g1.nyt.com/fonts/family/franklin-small/franklin-small-normal-500.18393241b759664027d71923d9ec4ff7.woff') format('woff'),
+         url('https://g1.nyt.com/fonts/family/franklin-small/franklin-small-normal-500.a956f1e6b0909d3b049cafec905cbe47.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'nyt-franklin-small';
+    src: url('https://g1.nyt.com/fonts/family/franklin-small/franklin-small-normal-700.02e1ddab47b92bab4e740aaaac922204.woff2') format('woff2'),
+         url('https://g1.nyt.com/fonts/family/franklin-small/franklin-small-normal-700.f3f88905f8f569c81a9a0d4eebf0e4e6.woff') format('woff'),
+         url('https://g1.nyt.com/fonts/family/franklin-small/franklin-small-normal-700.e908b49dea29a7f00a95859770c06b9a.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'nyt-franklin-tv';
+    src: url('https://g1.nyt.com/fonts/family/franklin-tv/franklin-tv-normal-300.afe95a157afb95a163b72c02724ed615.woff2') format('woff2'),
+         url('https://g1.nyt.com/fonts/family/franklin-tv/franklin-tv-normal-300.f46cdf8d3092071d3d4baff08892032e.woff') format('woff'),
+         url('https://g1.nyt.com/fonts/family/franklin-tv/franklin-tv-normal-300.fbe64393c9b7405c93e7be6761890923.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'nyt-franklin-tv';
+    src: url('https://g1.nyt.com/fonts/family/franklin-tv/franklin-tv-normal-500.626994fecf25073d939409b8a1aea453.woff2') format('woff2'),
+         url('https://g1.nyt.com/fonts/family/franklin-tv/franklin-tv-normal-500.6a87829ce8e404ef792f8cca4c5a99cb.woff') format('woff'),
+         url('https://g1.nyt.com/fonts/family/franklin-tv/franklin-tv-normal-500.510de4aa210cc711dab33c31d0e7398a.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'nyt-franklin-tv';
+    src: url('https://g1.nyt.com/fonts/family/franklin-tv/franklin-tv-normal-600.22f8a0d358c1417a041732eae5cafe6c.woff2') format('woff2'),
+         url('https://g1.nyt.com/fonts/family/franklin-tv/franklin-tv-normal-600.bf4bbe5057e26fd30565b1603f19c1b3.woff') format('woff'),
+         url('https://g1.nyt.com/fonts/family/franklin-tv/franklin-tv-normal-600.18619c6bc19731ceb333fbdd3a4def07.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'nyt-franklin-tv';
+    src: url('https://g1.nyt.com/fonts/family/franklin-tv/franklin-tv-normal-700.9f5d9a89231f67aa612fb6afecd764a6.woff2') format('woff2'),
+         url('https://g1.nyt.com/fonts/family/franklin-tv/franklin-tv-normal-700.7458a425ba50c5ac25ca368f74d79c82.woff') format('woff'),
+         url('https://g1.nyt.com/fonts/family/franklin-tv/franklin-tv-normal-700.8e62e074b39e27ea22ed9f0a40948697.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
   }

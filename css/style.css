@@ -1,149 +1,222 @@
-/* Global Atributes */ 
+/* Global Atributes */
 
 * {
 	box-sizing: border-box;
-}
-body {
+  }
+  
+  body {
 	margin: 0;
-	font-family: 'nyt-imperial', georgia,'times new roman',times,serif;
-	font-weight: 400;
+	font-family: 'nyt-imperial', georgia, 'times new roman', times, serif;
+	font-weight: 300;
+	color: #333;
 	font-size: 20px;
-}
-
-a{
+	line-height: 1.6;
+  }
+  
+  a {
 	text-decoration: none;
-}
-
-h1 {
-	line-height: 1.8em;
-	font-size: 38px;
+  }
+  
+  h1 {
+	color: #121212;
+	font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+	font-weight: 700;
 	font-style: italic;
-}
-
-/* Navigation section including logo */
-
-nav {
+	font-size: 38px;
+	line-height: 1.25em;
+  }
+  
+  .bold-600 {
+	font-weight: 600;
+  }
+  
+  
+  
+  /* Navigation section including logo */
+  
+  nav {
 	display: flex;
-	justify-content: space-between;
+	position: sticky;
+	top: 0;
+	background-color: #fff;
+	justify-content: space-around;
 	align-content: center;
-	padding-left: 144px;
 	border-bottom: 1px solid lightgrey;
-}
-
-.nav__rightside button {
+	height: 55px;
+	margin: 0;
+	padding: 10px 0;
+  }
+  
+  .nav__leftside button {
 	background-color: white;
 	border: none;
 	border-radius: 3px;
 	height: 34px;
 	width: 34px;
-}
-.nav__rightside button:hover {
+  }
+  
+  .nav__leftside button:hover {
 	cursor: pointer;
 	background-color: #f7f7f7;
-	border: 1px solid black;
-}
-.nav__rightside a {
-	font-family: 'Franklin Gothic Medium';
-	font-size: 18px;
+	border: 1px solid #000;
+  }
+  
+  .nav__leftside a {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 16px;
 	font-weight: 600;
 	text-decoration: none;
 	color: black;
-}
-.nav__rightside a:hover {
+  }
+  
+  .nav__leftside a:hover {
 	text-decoration: underline;
-}
-.fa-bars {
-	color: #333333;
-}
-.fa-search {
-	color: #333333;
-}
-.logo {
-}
-.logo img {
-	height: 30px;
-	width: 200px;
-}
-.nav__leftside {
-	
-}
-.nav__leftside button {
+  }
+  
+  .nav__rightside {}
+  
+  .nav__rightside button {
 	background-color: #567b95;
-	color: white;
+	color: #fff;
 	font-family: 'Franklin Gothic Medium';
-	font-weight: 400;
+	font-size: 12px;
 	border-radius: 3px;
 	border: none;
 	height: 30px;
-}
-.nav__leftside button:hover {
+  }
+  
+  .nav__rightside button:hover {
 	background-color: #326891;
 	cursor: pointer;
 	border: 3px solid black;
-}
-.box {
+  }
+  
+  .fa-bars {
+	color: #333333;
+  }
+  
+  .fa-search {
+	color: #333333;
+  }
+  
+  .logo {}
+  
+  .logo img {
+	height: 30px;
+	width: 200px;
+  }
+  
+  .box {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-}
-.social {
+  }
+  
+  .social {
 	text-align: right;
-}
-.social svg {
+  }
+  
+  .social svg {
 	margin-right: 10px;
 	height: 10px;
 	width: 10px;
-}
-.circle svg {
+  }
+  
+  .circle svg {
 	border-radius: 50%;
 	background-color: #eeeeee;
 	align-items: center;
 	height: 30px;
 	width: 30px;
-}
-
-/* Main content */
-#main {
-	display: flex;
-	margin-left: 353px;
-}
-
-#main > aside {
-	flex: 0 0 20vw;
-	background: beige;
-}
-#main > nav {
-	order: -1;
-}
-
-.center {
-	text-align: center;
-}
-
-p[rel='little-text'] {
-	font-size: 14px;
-	color: #444;
-}
-/* Content aligment text */
-#container-text {
-	display: grid;
-	justify-items: center;
+  }
+  
+  /* Main content */
+  main {
 	width: 100%;
-}
-
-.content-text {
-	justify-self: center;
-	width: 45%;
-	line-height: 1.5em;
-}
-
-.main_img1 {
+  }
+  
+  .content-text {
+	width: 600px;
+	margin: 0 auto;
+  }
+  
+  .content-media {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 1200px;
+	margin: 30px auto;
+  }
+  
+  .content-media img {
+	width: 100%;
+  }
+  
+  .content-description{
+	width: 100%;
+	margin: 10px 300px 10px 0;
+	font-size: 15px;
+	color: #444;
+  }
+  
+  .content-description span{
+	font-size: 13px;
+	color: #888;
+  } 
+  
+  .wrap-text {
 	position: relative;
-}
-.main_img1 img {
-	height: 100% !important;
-	width: 100% !important;
-}
+	width: 600px;
+	margin: 0 auto;
+	z-index: -1;
+  }
+  
+  aside{
+	position: absolute;
+	top: 300px;
+	bottom: 100px;
+	right: -300px;
+	width: 210px;
+	padding: 0 20px;
+	/* background: #fa8366; */
+  
+  }
+  
+  /* The theory of inflation image*/
+  #image-txt{
+	  background: url("../photos/inflation.png") center no-repeat;
+	  background-size: 900px;
+	  width: 900px;
+	height: 548px;
+	z-index: -2;
+  }
+  
+  .container-image{
+	  display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-top: 137px;
+	  height: *;
+	  width: 100%;
+  }
+  
+  .image-description{
+	  font-family: nyt-franklin, arial, helvetica, sans-serif;
+	  font-size: 13px;
+	font-weight: 300;
+	line-height: 1.30em;
+	padding: 0 5px;
+	  width: 215px;
+  }
+  
+  .image-description span{
+	  font-weight: 700;
+	  font-size:
+  }
+  
+  .thanks{
+	
+  }
 header,
 footer,
 article,
