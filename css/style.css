@@ -26,6 +26,9 @@ h1 {
 	font-weight: 600;
 }
 
+iframe{
+  border-width: 0px;
+}
 
 
 /* Navigation section including logo */
@@ -70,8 +73,6 @@ nav {
 	text-decoration: underline;
 }
 
-.nav__rightside {}
-
 .nav__rightside button {
 	background-color: #567b95;
 	color: #fff;
@@ -95,8 +96,6 @@ nav {
 .fa-search {
 	color: #333333;
 }
-
-.logo {}
 
 .logo img {
 	height: 30px;
@@ -138,6 +137,8 @@ main {
 }
 
 .content-media {
+  font-size: 15px;
+	color: #444;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -145,15 +146,13 @@ main {
 	margin: 30px auto;
 }
 
-.content-media img {
-	width: 100%;
-}
-
 .content-description {
 	width: 100%;
 	margin: 10px 300px 10px 0;
-	font-size: 15px;
-	color: #444;
+}
+
+.content-description2 {
+  width: 720px;
 }
 
 .content-description span {
@@ -165,6 +164,18 @@ main {
 	position: relative;
 	width: 600px;
 	margin: 0 auto;
+}
+
+.wrap-text a{
+  color: #326891;
+}
+
+.wrap-text a:hover{
+  text-decoration: none;
+}
+.end-text{
+  font-family: 'nyt-franklin-small', Arial, Helvetica, sans-serif;
+  font-size: 10px;
 }
 
 /* Aside section */
@@ -194,6 +205,10 @@ aside {
 	align-items: center;
 }
 
+.container-editors [rel="editors-bg"]{
+  background-color: #eee;
+}
+
 .container-editors-title{
   width: 100%;
   font-family: 'nyt-franklin-cword';
@@ -207,6 +222,7 @@ aside {
 }
 
 .container-editors1 {
+  padding: 13px 13px 12px 13px;
 	justify-self: center;
 	align-self: center;
 }
@@ -220,7 +236,14 @@ aside {
 }
 
 .container-editors-paid{
+  font-family: 'nyt-franklin-small', Arial, Helvetica, sans-serif;
+  padding: 5px 0 0 5px;
+  font-size: 10px;
+  line-height: 1.2em;
+}
 
+.container-editors-paid span{
+  font-weight: 800;
 }
 
 /* The theory of inflation image*/
@@ -237,7 +260,6 @@ aside {
 	justify-content: space-between;
 	align-items: flex-start;
 	margin-top: 137px;
-	height: *;
 	width: 100%;
 }
 
@@ -252,10 +274,7 @@ aside {
 
 .image-description span {
 	font-weight: 700;
-	font-size:
 }
-
-.thanks {}
 
 header,
 footer,
