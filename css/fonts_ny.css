@@ -1,9 +1,229 @@
 @font-face {
   font-family: 'nyt-cheltenham';
+  src: url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-200.64dd3cfc209bc73fb3279ba16dd3d09f.woff2') format('woff2'),
+       url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-200.a9e372cb4c5086e3924e23b9dad94ff6.woff') format('woff'),
+       url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-200.57d2121fab27583198550b38ed84c4a6.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham';
+  src: url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-300.5278551441f9d1ce9cd247421e26a143.woff2') format('woff2'),
+       url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-300.55c933f230696eae11a43a9a2995b24d.woff') format('woff'),
+       url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-300.574eeb5bb2bf407111d0789ef94a6504.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham';
+  src: url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-400.0020c60e1c956444040efc53cd3e7be0.woff2') format('woff2'),
+       url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-400.b892fe8e85ceee8640c8b9dd33035349.woff') format('woff'),
+       url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-400.b8fcda1bedf33a4ad1e4d11fac428e3a.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham';
+  src: url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-500.c149a85a3db3ccc3cd9e1e217a1e8e4c.woff2') format('woff2'),
+       url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-500.b0a9f31ef2ab8b3f06024843e8b463cf.woff') format('woff'),
+       url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-500.0037bc2b5f7715117712e6e1b21d2ae4.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham';
   src: url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-700.f99a0459024509f157a3352e5de4f873.woff2') format('woff2'),
        url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-700.d53eaf3b784c4b50d1c331e1278cda67.woff') format('woff'),
        url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-700.c690b74328fddd7feff3bc4c1c1a0cd8.ttf') format('truetype');
   font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham';
+  src: url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-800.f3240492eb08ad76f293c523796ec139.woff2') format('woff2'),
+       url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-800.070143a714bc4e4b377c2507e1f67797.woff') format('woff'),
+       url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-800.f9bf10941e7cc67f21594eb0d55dfc75.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham';
+  src: url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-normal-200.40ccfe2cc61a71e6617e56162d49b896.woff2') format('woff2'),
+       url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-normal-200.9214ccbb3fe30220fe1fa1129c1906ac.woff') format('woff'),
+       url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-normal-200.453c9d3203dec6095bc3f9469e7f87a4.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham';
+  src: url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-normal-300.7ea91ebd036309e1fe756ee3aab272da.woff2') format('woff2'),
+       url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-normal-300.82cb795d8c57bbe367d0ffbeba88eb53.woff') format('woff'),
+       url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-normal-300.cecc961ed849c01655ce98886cb1ab47.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham';
+  src: url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-normal-400.a3ed7afe3eaa0a873f3fbd379f8c491b.woff2') format('woff2'),
+       url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-normal-400.23bd4e5c0c27259b064aa9ae6d787980.woff') format('woff'),
+       url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-normal-400.4bffe18a586b3b49c9c6d44e382be438.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham';
+  src: url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-normal-500.a22ae3ed1e775ce90ced16f1822f4ddc.woff2') format('woff2'),
+       url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-normal-500.229eebd8069abe2c2253b203c9179e25.woff') format('woff'),
+       url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-normal-500.fe8ceaea50c19a1dfffe1bbfa15e283e.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham';
+  src: url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-normal-700.530cfb72378419eedb60da7e266ad5f1.woff2') format('woff2'),
+       url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-normal-700.738608727fc7c5797889e17788508b26.woff') format('woff'),
+       url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-normal-700.85ca4d109571e1e0084aace5a31f049c.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham';
+  src: url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-normal-800.78ace43907be7e8789003cfd692c3ba4.woff2') format('woff2'),
+       url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-normal-800.3759c9080a568598a298f0b0bc5a5d12.woff') format('woff'),
+       url('https://g1.nyt.com/fonts/family/cheltenham/cheltenham-normal-800.beea606b16c50bd15a1851fba1dd2411.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham-cond';
+  src: url('https://g1.nyt.com/fonts/family/cheltenham-cond/cheltenham-cond-normal-300.2cb26d329110670c84ee9a2dd6b7c6b5.woff2') format('woff2'),
+       url('https://g1.nyt.com/fonts/family/cheltenham-cond/cheltenham-cond-normal-300.19f2f814e16bfb8758011e282d29cf6c.woff') format('woff'),
+       url('https://g1.nyt.com/fonts/family/cheltenham-cond/cheltenham-cond-normal-300.4bc8d8aaeff0c83ccd7a0f0b4afe0773.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham-cond';
+  src: url('https://g1.nyt.com/fonts/family/cheltenham-cond/cheltenham-cond-normal-500.38f188555d0faca9cd04d05711b7d430.woff2') format('woff2'),
+       url('https://g1.nyt.com/fonts/family/cheltenham-cond/cheltenham-cond-normal-500.b8fc087f0a2a14ffe9f19ba28e2cdf96.woff') format('woff'),
+       url('https://g1.nyt.com/fonts/family/cheltenham-cond/cheltenham-cond-normal-500.0147dbedb654edf4d74ebd6b583f32a7.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham-cond';
+  src: url('https://g1.nyt.com/fonts/family/cheltenham-cond/cheltenham-cond-normal-700.9d3e47dbcdfcd125da0457426ac86b9b.woff2') format('woff2'),
+       url('https://g1.nyt.com/fonts/family/cheltenham-cond/cheltenham-cond-normal-700.e0e9236c90dcd6d8e4df7eaa6f0e6179.woff') format('woff'),
+       url('https://g1.nyt.com/fonts/family/cheltenham-cond/cheltenham-cond-normal-700.7e76992f464ec6bd7697564857874277.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham-scaps';
+  src: url('https://g1.nyt.com/fonts/family/cheltenham-scaps/cheltenham-scaps-normal-300.13fdf410c073060582642dff102318e4.woff2') format('woff2'),
+       url('https://g1.nyt.com/fonts/family/cheltenham-scaps/cheltenham-scaps-normal-300.75e6e19fa03e172c6807d47fd1741cce.woff') format('woff'),
+       url('https://g1.nyt.com/fonts/family/cheltenham-scaps/cheltenham-scaps-normal-300.edb7f0629cd611fa2c82b0ecca0df4ad.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham-small';
+  src: url('https://g1.nyt.com/fonts/family/cheltenham-small/cheltenham-small-italic-400.cdfa0ec29cca8c2d2f54c79d898e15c1.woff2') format('woff2'),
+       url('https://g1.nyt.com/fonts/family/cheltenham-small/cheltenham-small-italic-400.0569e2004101151b08b333589119e3f3.woff') format('woff'),
+       url('https://g1.nyt.com/fonts/family/cheltenham-small/cheltenham-small-italic-400.53a6a1844466d6c1eb4a1a902ad289f7.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham-small';
+  src: url('https://g1.nyt.com/fonts/family/cheltenham-small/cheltenham-small-italic-700.4d88cc14057ed010aa281da2202f928c.woff2') format('woff2'),
+       url('https://g1.nyt.com/fonts/family/cheltenham-small/cheltenham-small-italic-700.af2a0cfe9b9297ce4a6d0231d2ec85f1.woff') format('woff'),
+       url('https://g1.nyt.com/fonts/family/cheltenham-small/cheltenham-small-italic-700.47c0a5ef660342477afdbaf083b93caf.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham-small';
+  src: url('https://g1.nyt.com/fonts/family/cheltenham-small/cheltenham-small-normal-400.108ce298d451197b23fefceb3e36959f.woff2') format('woff2'),
+       url('https://g1.nyt.com/fonts/family/cheltenham-small/cheltenham-small-normal-400.9dfa21a5aff2f7bdf7b929b8967700bd.woff') format('woff'),
+       url('https://g1.nyt.com/fonts/family/cheltenham-small/cheltenham-small-normal-400.8b8141b3a4ec5c4f8028ee735f8c3107.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham-small';
+  src: url('https://g1.nyt.com/fonts/family/cheltenham-small/cheltenham-small-normal-700.1a0b316424cdebd18086b8dbbc768eef.woff2') format('woff2'),
+       url('https://g1.nyt.com/fonts/family/cheltenham-small/cheltenham-small-normal-700.eccd7f6517b300fee245af2242b63837.woff') format('woff'),
+       url('https://g1.nyt.com/fonts/family/cheltenham-small/cheltenham-small-normal-700.c7e511fa120d6691a4a7f58ab8d0a593.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham-wide';
+  src: url('https://g1.nyt.com/fonts/family/cheltenham-wide/cheltenham-wide-italic-400.19e805a3794fd4f35778d44a2946951a.woff2') format('woff2'),
+       url('https://g1.nyt.com/fonts/family/cheltenham-wide/cheltenham-wide-italic-400.a20e6161351159d37d8f2ffb18019bdb.woff') format('woff'),
+       url('https://g1.nyt.com/fonts/family/cheltenham-wide/cheltenham-wide-italic-400.2b76b7720b2349e00b65149847e44089.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham-wide';
+  src: url('https://g1.nyt.com/fonts/family/cheltenham-wide/cheltenham-wide-normal-400.c5a9ae48f6d972c4f7ebcc149fc97d1f.woff2') format('woff2'),
+       url('https://g1.nyt.com/fonts/family/cheltenham-wide/cheltenham-wide-normal-400.e8bb25c51e19a6eb5626e13b3de277ea.woff') format('woff'),
+       url('https://g1.nyt.com/fonts/family/cheltenham-wide/cheltenham-wide-normal-400.1aa2f0e72b06528c43aece2f313a442b.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nyt-cheltenham-xcond';
+  src: url('https://g1.nyt.com/fonts/family/cheltenham-xcond/cheltenham-xcond-normal-700.bffb8d224e2391e6238da2f1d663d77c.woff2') format('woff2'),
+       url('https://g1.nyt.com/fonts/family/cheltenham-xcond/cheltenham-xcond-normal-700.8cbd9f80d2a7c24732581bb07f5d5c55.woff') format('woff'),
+       url('https://g1.nyt.com/fonts/family/cheltenham-xcond/cheltenham-xcond-normal-700.e3f1620f5ccc4286d1375215b0e3169d.ttf') format('truetype');
+  font-style: normal;
   font-weight: 700;
   font-display: swap;
 }
