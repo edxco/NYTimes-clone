@@ -24,7 +24,9 @@ h1,
 
 .nav__rightside button,
 .nav__leftside a,
-.end-text {
+.end-text,
+.image-description,
+.container-editors-paid {
   font-family: 'nyt-franklin-small', Arial, Helvetica, sans-serif;
 }
 
@@ -34,6 +36,12 @@ h1 {
   font-style: italic;
   font-size: 38px;
   line-height: 1.25em;
+}
+
+.nospace {
+  margin-bottom: 15px;
+  line-height: 0;
+  padding: 0;
 }
 
 .bold-600 {
@@ -150,8 +158,8 @@ main {
 .content-media {
   font-size: 15px;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
   width: 1200px;
   margin: 30px auto;
 }
@@ -233,7 +241,6 @@ aside {
 }
 
 .container-editors-paid {
-  font-family: 'nyt-franklin-small', Arial, Helvetica, sans-serif;
   padding: 5px 0 0 5px;
   font-size: 10px;
   line-height: 1.2em;
@@ -245,28 +252,34 @@ aside {
 
 /* The theory of inflation image */
 #image-txt {
-  background: url("../photos/inflation.png") center no-repeat;
+  background: url("../photos/inflation.png") center bottom no-repeat;
   background-size: 900px;
   width: 900px;
-  height: 548px;
-  z-index: -2;
+  height: 650px;
 }
 
 .container-image {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: 137px;
+  margin-top: 160px;
+  width: 100%;
+}
+
+.container-image2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 130px;
   width: 100%;
 }
 
 .image-description {
-  font-family: 'nyt-franklin', arial, helvetica, sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 300;
   line-height: 1.3em;
   padding: 0 5px;
-  width: 215px;
+  width: 205px;
 }
 
 .image-description span {
