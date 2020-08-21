@@ -20,8 +20,7 @@ h1,
 .fa-search,
 .content-media,
 .nav__leftside a,
-.circle,
-	{
+.circle {
 	color: #444;
 }
 
@@ -94,7 +93,6 @@ iframe {
 	width: 74%;
 }
 
-
 .main-img span,
 .content-description2 span {
 	font-size: 14px;
@@ -122,7 +120,6 @@ iframe {
 .grid-img {
 	width: 100%;
 }
-
 
 /* Navigation section including logo */
 header {
@@ -384,8 +381,6 @@ footer {
 	grid-area: 2 / 4 / 6 / 5;
 }
 
-
-
 /* Inner Grid for author, link and date */
 .grid-container-inner {
 	display: grid;
@@ -410,7 +405,7 @@ footer {
 }
 
 /* Styling for right grid links */
-.grid-r-link{
+.grid-r-link {
 	border-top: 1px solid #ccc;
 	padding: 11px 0;
 }
@@ -432,6 +427,7 @@ footer {
 	width: 100%;
 	height: 20px;
 	margin: 10px 0 10px 0;
+	border-top: 2px solid #e2e2e2;
 }
 
 .site__index img {
@@ -482,8 +478,6 @@ footer {
 	padding: 0 10px 0 10px;
 }
 
-
-
 /* a styling */
 .site__index a {
 	font-weight: 400;
@@ -514,4 +508,60 @@ a:hover {
 .social a:hover {
 	background: #fff;
 	border: 1px solid #aaa;
+}
+
+.author {
+	font-family: 'nyt-franklin';
+	font-size: 15px;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+.author a {
+	color: #333;
+}
+.author a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+.date {
+	font-family: 'nyt-franklin';
+	font-size: 13px;
+	font-weight: 500;
+	padding-top: 12px;
+}
+
+.fixed {
+	display: flex;
+	border-top: 1px solid #333;
+	height: 55px;
+	background-color: #ffffff;
+	min-height: 100%;
+	position: sticky;
+	bottom: 0;
+}
+.fixed__bar {
+	display: inline;
+	margin: 0 auto;
+}
+.fixed__words {
+	font-family: 'nyt-franklin';
+	font-weight: 400;
+	font-size: 15px;
+	color: #000000;
+	width: 1200px;
+	text-align: right;
+	padding-top: 10px;
+}
+.fixed__barButton1 {
+	margin-left: 220px;
+	background-color: #ffffff;
+	border: none;
+	cursor: pointer;
+}
+
+.fixed__barButton2 {
+	margin-left: 20px;
+	background-color: #ffffff;
+	border: none;
+	cursor: pointer;
 }
