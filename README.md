@@ -9,7 +9,7 @@ This assignment consists of making a clone of a New York Times article page. By 
 * Floats and positioning
 * The box model
 
-![screenshot](https://octodex.github.com/images/yaktocat.png)
+![screenshot](https://github.com/edxco/NYTimes-clone/blob/nyfeatures/photos/screenshot-nyt-clone.png)
 
 Additional description about the project and its features.
 
