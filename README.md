@@ -4,10 +4,10 @@
 
 This assignment consists of making a clone of a New York Times article page. By this point, the student should be familiar with the concepts of:
 
-Embedding images
-Working with forms (buttons in this case)
-Floats and positioning
-The box model
+* Embedding images
+* Working with forms (buttons in this case)
+* Floats and positioning
+* The box model
 
 ![screenshot](https://octodex.github.com/images/yaktocat.png)
 
