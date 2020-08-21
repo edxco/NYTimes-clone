@@ -12,8 +12,8 @@
 </head>
 
 <body>
-	<nav class="nav__bar">
-		<div class="nav__leftside">
+	<header>
+		<nav class="nav__leftside">
 			<button type="submit" class="menu">
 				<i class="fas fa-bars fa-md"></i>
 			</button>
@@ -21,43 +21,46 @@
 				<i class="fas fa-search fa-md"></i>
 			</button>
 			<a href="#">SPACE & COSMOS</a>
-		</div>
+		</nav>
 		<div class="logo">
 			<img src="photos/nytimes.svg" alt="" />
 		</div>
-		<div class="nav__rightside">
+		<nav class="nav__rightside">
 			<button type="submit" class="blue-button bold-600">SUBSCRIBE NOW</button>
 			<button type="submit" class="blue-button bold-600">LOG IN</button>
-		</div>
-	</nav>
+		</nav>
+	</header>
 
 	<main>
 		<div class="content-text">
 			<h1><i>Space Ripples Reveal Big Bang’s Smoking Gun</i></h1>
 		</div>
 		<div class="content-media">
-			<img src="photos/newyorktimes.jpg" width="1200" alt="Alan Guth was one of the first physicists to hypothesize the
+			<figure class="main-img">
+				<img src="photos/newyorktimes.jpg" alt="Alan Guth was one of the first physicists to hypothesize the
 					existence of inflation" />
-			<div class="content-description">
-				Alan Guth was one of the first physicists to hypothesize the existence
-				of inflation, which explains how the universe expanded so uniformly
-				and so quickly in the instant after the Big Bang 13.8 billion years
-				ago. <span>Rick Friedman for The New York Times</span>
-			</div>
+				<figcaption>
+					<p>Alan Guth was one of the first physicists to hypothesize the existence
+						of inflation, which explains how the universe expanded so uniformly
+						and so quickly in the instant after the Big Bang 13.8 billion years
+						ago. <span>Rick Friedman for The New York Times</span>
+					</p>
+				</figcaption>
+			</figure>
 		</div>
 		<div class="content-text">
 			<div class="wrap-text">
 				<div class="author">By Dennis Overbye</div>
 				<div class="box">
 					<div class="date">March 17,2014</div>
-					<div class="social">
+					<nav class="social">
 						<a href="#"><i class="fab fa-facebook-f fa-xs"></i></a>
 						<a href="#"><i class="fab fa-twitter fa-xs "></i></a>
 						<a href="#"><i class="fas fa-envelope fa-xs "></i></a>
 						<a href="#"><i class="fas fa-share fa-xs "></i></a>
 						<a href="#" class="nocircle"><i class="far fa-bookmark"></i></a>
 						<a href="#" class="nocircle"><i class="far fa-comment-alt"></i></a>
-					</div>
+					</nav>
 				</div>
 				<p>
 					CAMBRIDGE, Mass. — One night late in 1979, an itinerant young
@@ -314,9 +317,9 @@
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/ZlfIVEy_YOA"
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen></iframe>
-				<div class="content-description">
+				<div class="content-description2">
 					Stanford Professor Andrei Linde celebrates physics breakthrough
-					<span>Video by StanfordUniversity</span>
+					<span>Video by <br>StanfordUniversity</span>
 				</div>
 				<p>
 					Confused, Dr. Linde called out to his wife, asking if she had
@@ -397,14 +400,16 @@
 			</div>
 		</div>
 		<div class="content-media">
-			<img src="photos/cosmos.jpg" width="720" alt="Alan Guth was one of the first physicists to hypothesize the
+			<figure>
+				<img src="photos/cosmos.jpg" width="720" alt="Alan Guth was one of the first physicists to hypothesize the
 					existence of inflation" />
-			<div class="content-description2">
-				The Bicep2 telescope, in the foreground, was used to detect the faint
-				spiraling gravity patterns — the signature of a universe being
-				wrenched violently apart at its birth.
-				<span>Steffen Richter/Associated Press</span>
-			</div>
+				<figcaption class="content-description2">
+					The Bicep2 telescope, in the foreground, was used to detect the faint
+					spiraling gravity patterns — the signature of a universe being
+					wrenched violently apart at its birth.
+					<span>Steffen Richter/Associated Press</span>
+				</figcaption>
+			</figure>
 		</div>
 		<div class="content-text">
 			<div class="wrap-text">
@@ -533,16 +538,31 @@
 	<div class="index">
 		<div class="grid-container">
 			<div class="grid">
-				<img src="photos/sub-menu1.jpg" width="280">
-				sdasdsadsad
+				<img src="photos/sub-menu1.jpg" class="grid-img" alt="More in Space and Astronomy">
+				<div class="grid-container-inner">
+					<div class="grid-author">European Southern Observatory</div>
+					<div class="grid-link"><a href="#" class="bold-400">This Star Looked Like It Would Explode. Maybe It Just Sneezed</a>
+					</div>
+					<div class="grid-date">Aug. 14</div>
+				</div>
 			</div>
 			<div class="grid">
-				<img src="photos/sub-menu2.jpg" width="280">
-				sdsgdfhgfhtg
+				<img src="photos/sub-menu2.jpg" class="grid-img" alt="More in Space and Astronomy">
+				<div class="grid-container-inner">
+					<div class="grid-author">European Southern Observatory</div>
+					<div class="grid-link"><a href="#" class="bold-400">Amazon Satellites Add To Astronomer's Worries About the Night Sky</a>
+					</div>
+					<div class="grid-date">Aug. 14</div>
+				</div>
 			</div>
 			<div class="grid">
-				<img src="photos/sub-menu3.jpg" width="280">
-				sdsgdfhgfhtg
+				<img src="photos/sub-menu3.jpg" class="grid-img" alt="More in Space and Astronomy">
+				<div class="grid-container-inner">
+					<div class="grid-author">European Southern Observatory</div>
+					<div class="grid-link"><a href="#" class="bold-400">'Thanks For Flying SpaceX': NASA Astronauts Safely Splash Down After Journey From Orbit</a>
+					</div>
+					<div class="grid-date">Aug. 14</div>
+				</div>
 			</div>
 			<div class="grid-side">
 				<div class="grid-posts">
@@ -550,16 +570,31 @@
 				</div>
 			</div>
 			<div class="grid">
-				<img src="photos/sub-menu4.jpg" width="280">
-				sdsgdfhgfhtg
+				<img src="photos/sub-menu4.jpg" class="grid-img" alt="More in Space and Astronomy">
+				<div class="grid-container-inner">
+					<div class="grid-author">European Southern Observatory</div>
+					<div class="grid-link"><a href="#" class="bold-400">A Star Went Supernova in 1987. Where Is It Now?</a>
+					</div>
+					<div class="grid-date">Aug. 14</div>
+				</div>
 			</div>
 			<div class="grid">
-				<img src="photos/sub-menu5.jpg" width="280">
-				sdsgdfhgfhtg
+				<img src="photos/sub-menu5.jpg" class="grid-img" alt="More in Space and Astronomy">
+				<div class="grid-container-inner">
+					<div class="grid-author">European Southern Observatory</div>
+					<div class="grid-link"><a href="#" class="bold-400">NASA Launches Perseverance Rover, Capping Summer of Missions to Mars</a>
+					</div>
+					<div class="grid-date">Aug. 14</div>
+				</div>
 			</div>
 			<div class="grid">
-				<img src="photos/sub-menu6.jpg" width="280">
-				sdsgdfhgfhtg
+				<img src="photos/sub-menu6.jpg" class="grid-img" alt="More in Space and Astronomy">
+				<div class="grid-container-inner">
+					<div class="grid-author">European Southern Observatory</div>
+					<div class="grid-link"><a href="#" class="bold-400">How NASA Found The Ideal Hole on Mars to Land In</a>
+					</div>
+					<div class="grid-date">Aug. 14</div>
+				</div>
 			</div>
 		</div>
 		<div class="site__index">
