@@ -20,7 +20,8 @@ h1,
 .fa-search,
 .content-media,
 .nav__leftside a,
-.circle, {
+.circle,
+	{
 	color: #444;
 }
 
@@ -33,7 +34,7 @@ h1,
 
 .footer__index a,
 .footer__index li {
-color: #666;
+	color: #666;
 }
 
 .blue-button,
@@ -45,6 +46,8 @@ color: #666;
 	font-family: 'nyt-franklin-small', Arial, Helvetica, sans-serif;
 }
 
+.grid-side,
+h1,
 .index__col li,
 .container-editors,
 .grid-container-inner a {
@@ -52,7 +55,6 @@ color: #666;
 }
 
 h1 {
-	font-family: 'nyt-cheltenham', georgia, 'times new roman', times, serif;
 	font-weight: 700;
 	font-style: italic;
 	font-size: 38px;
@@ -98,17 +100,17 @@ iframe {
 	font-size: 12px;
 }
 
+.grid-r-link,
+.grid-container-inner a {
+	font-size: 18px;
+}
+
 .grid-date,
 .grid-author,
 .site__index a,
 .index__col h3,
 .footer__index li {
 	font-size: 11px;
-}
-
-.grid-container-inner a {
-	font-size: 18px;
-	line-height: 1em;
 }
 
 .grid-img {
@@ -337,35 +339,40 @@ footer {
 /* Outer grid */
 .grid-container {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 23% 23% 23% 31%;
 	grid-template-rows: 1fr 1fr;
-	gap: 15px 10px;
-	align-self: start;
-	justify-self: start;
+	gap: 15px 18px;
+	justify-content: space-between;
+	place-items: start;
 	margin-top: 50px;
 }
 
 .grid {
 	align-self: center;
 	justify-self: center;
-	width: 285px;
 	text-align: center;
 }
 
 .grid-side {
 	grid-area: 1 / 4 / 3 / 5;
-	background-color: cadetblue;
+	padding-left: 30px;
 }
 
 /* Inner Grid for author, link and date */
-.grid-container-inner{
+.grid-container-inner {
 	display: grid;
 	grid-template-columns: 1fr;
+	grid-template-rows: 13px 90px;
 	grid-gap: 5px;
+	align-items: start;
 }
 
-.grid-author{
+.grid-author {
 	text-align: right;
+}
+
+.grid-date {
+	margin-top: 5px;
 }
 
 .grid-link,
@@ -374,6 +381,11 @@ footer {
 	line-height: 1em;
 }
 
+/* Styling for right grid links */
+.grid-r-link{
+	border-top: 1px solid #ccc;
+	padding: 11px 0;
+}
 
 .index {
 	display: flex;
