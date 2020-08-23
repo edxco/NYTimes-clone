@@ -245,57 +245,40 @@ aside {
   position: absolute;
   top: 300px;
   bottom: 100px;
-  right: -700px;
-  width: 210px;
-  padding: 0 20px;
+  right: -300px;
+  width: 250px;
+  padding: 0;
+  margin: 0;
 }
 
 /* Editors pick layout */
 .container-editors {
-  font-family: 'nyt-cheltenham', Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  color: #555;
-  width: 100%;
+  font-size: 16px;
+  line-height: 1.3em;
   display: grid;
-  grid-template-columns: 75px 135px; /* Both Column's width: must be 210px */
-  grid-template-rows: 30px 75px 75px 75px 75px;
-  grid-row-gap: 15px;
+  grid-template-columns: 100%; /* Both Column's width: must be 210px */
+  grid-template-rows: 40px 85px 85px 85px 85px;
+  gap: 0;
   justify-items: center;
   align-items: center;
-}
-
-.container-editors [rel='editors-bg'] {
-  background-color: #eee;
+  padding: 0;
+  margin: 0;
 }
 
 .container-editors-title {
   width: 100%;
-  font-family: 'nyt-franklin-cword', Arial, Helvetica, sans-serif;
   padding-bottom: 4px;
   border-bottom: 1px solid #ccc;
   color: #121212;
   align-self: start;
   justify-self: start;
-  grid-column: 1 / 3;
 }
 
-.container-editors1 {
-  padding: 13px 13px 12px 13px;
-  justify-self: center;
-  align-self: center;
-}
-
-.container-editors2 {
-  padding: 5px 0 0 5px;
-  align-self: start;
-  line-height: 1.08em;
-}
-
-.container-editors-paid {
-  padding: 5px 0 0 5px;
-  font-size: 10px;
-  line-height: 1.2em;
-}
+/*using float*/
+.float-left {
+	float: left;
+	padding: 0 20px 20px 0;
+   }
 
 /* The theory of inflation image */
 #image-txt {
