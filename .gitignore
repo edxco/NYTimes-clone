@@ -1,0 +1,4 @@
+# Ignoring Node Modules
+node_modules
+.vscode
+alternative.html
